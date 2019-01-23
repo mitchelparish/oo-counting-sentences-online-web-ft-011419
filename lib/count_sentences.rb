@@ -15,7 +15,6 @@ class String
   end
 
   def count_sentences
-    self.split(/[[:punct:]]/).count = newarray
-    newarray.select! { |element| element&.size.to_i > 0 }
+    self.split(/[[:punct:]]/).count
   end
 end
